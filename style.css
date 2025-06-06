@@ -120,3 +120,40 @@ footer {
     font-size: 1.2rem;
   }
 }
+.productos {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.productos h2 {
+  font-size: 1.8rem;
+  color: #2e7d32;
+  margin-bottom: 40px;
+}
+
+.producto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.producto-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.producto-card:hover {
+  transform: translateY(-5px);
+}
+
+.producto-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
